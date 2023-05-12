@@ -1,0 +1,32 @@
+package a;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class Study {
+	
+	public static void main(String[] args) {
+		
+		String path = "C:\\Users\\user\\Desktop\\course\\Java\\file\\ex.txt";
+		
+		try {
+			InputStream is = new FileInputStream(path);
+			
+			while(true) {
+				int result = is.read();
+				System.out.println(result);
+				if(result == -1) break;
+			}
+			
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+        
+  
+}

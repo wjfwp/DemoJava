@@ -1,0 +1,29 @@
+package a;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.Reader;
+import java.io.Writer;
+
+public class Study {
+	
+	public static void main(String[] args) {
+		
+		String path = "C:\\Users\\user\\Desktop\\course\\Java\\file\\y.txt";
+		
+		try(Reader rd = new FileReader(path)) {
+			
+			int r;
+			while( (r = rd.read()) != -1 ){
+				System.out.println((char)r);
+			}
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+  
+}

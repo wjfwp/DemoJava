@@ -1,0 +1,30 @@
+package a;
+
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.Reader;
+
+public class Study {
+	
+	public static void main(String[] args) {
+		
+		String path = "C:\\Users\\user\\Desktop\\course\\Java\\file\\y.txt";
+		
+		try(BufferedWriter bw = new BufferedWriter( new FileWriter(path, true) ) ) {
+			
+			String str = "하하하하";
+			bw.write(str);
+			
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+	}
+  
+}

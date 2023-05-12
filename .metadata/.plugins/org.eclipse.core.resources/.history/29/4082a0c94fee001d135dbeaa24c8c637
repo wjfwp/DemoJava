@@ -1,0 +1,39 @@
+package a;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+public class Study {
+	
+	public static void main(String[] args) {
+		
+		String readpath ="C:\\Users\\user\\Desktop\\course\\Java\\file\\text.txt";
+		String writepath = "C:\\Users\\user\\Desktop\\course\\Java\\filecopy\\text_copy.txt";
+		
+		try(InputStream is = new FileInputStream(readpath);
+				 OutputStream out = new FileOutputStream(writepath)) {
+			
+			byte[] arr = new byte[2048];
+			
+			int result;
+			while( (result = is.read(arr)) != 1) {
+				out.write(arr, 0, result);
+			}
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		System.out.println("end");
+		
+		
+	}
+	
+	
+        
+  
+}

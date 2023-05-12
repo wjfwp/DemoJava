@@ -1,0 +1,35 @@
+package a;
+
+import java.io.*;
+import java.util.Scanner;
+
+public class Study {
+	
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		String path = "C:\\Users\\user\\Desktop\\course\\Java\\file\\test2.txt";
+		
+		try( BufferedWriter br = new BufferedWriter( new FileWriter(path, true))) {
+			
+			System.out.print(">");
+			String s = scan.next();
+			br.write(s);
+			br.flush();
+			
+			System.out.println(">");
+			String s2 = scan.next();
+			br.write(s2);
+			
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+  
+}

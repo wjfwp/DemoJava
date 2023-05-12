@@ -1,0 +1,29 @@
+package a;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.InputStreamReader;
+
+public class Study {
+	
+	public static void main(String[] args) {
+		
+		String path = "C:\\Users\\user\\Desktop\\course\\Java\\work\\JavaAPI\\src\\day16\\api\\io\\buffered\\example.txt";
+		
+		try( BufferedReader br = new BufferedReader( new InputStreamReader( new FileInputStream(path), "EUC-KR")) ) {
+			
+			String str;
+			while( (str = br.readLine()) != null) {
+				System.out.println(str);
+			}
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+  
+}

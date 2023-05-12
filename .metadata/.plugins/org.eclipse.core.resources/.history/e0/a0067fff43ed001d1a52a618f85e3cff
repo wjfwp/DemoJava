@@ -1,0 +1,39 @@
+package a;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		//파일읽기
+		String path = "C:\\Users\\user\\Desktop\\course\\Java\\file\\20230508file\\12.txt";
+		
+		try {
+			InputStream is = new FileInputStream(path);
+			
+			//2. 배열 읽기
+			byte[] arr = new byte[100];
+			//읽어들인 크기 반환
+			//더 읽을 값 없으면 -1 반환
+			
+			while(true) {
+				
+				
+			}
+					
+			
+			
+			is.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		
+		
+	}
+	
+}

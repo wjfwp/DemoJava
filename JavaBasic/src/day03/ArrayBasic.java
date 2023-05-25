@@ -41,7 +41,7 @@ public class ArrayBasic {
 		//3rd
 		int arr4[]= {1,2,3};
 		
-		//배열은 초기값을 지정하지 않으면 기본값으로 자동포기와
+		//배열은 초기값을 지정하지 않으면 기본값으로 자동초기화
 		//int 0는 0,double = 0.0, String은 null
 		System.out.println(Arrays.toString(arr2));
 		

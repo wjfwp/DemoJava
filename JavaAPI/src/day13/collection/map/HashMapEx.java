@@ -40,6 +40,8 @@ public class HashMapEx {
 			System.out.println("3번 키가 존재함");
 		}
 		
+		
+		
 		//맵의 삭제 remove(키)
 		map.remove(4);
 		System.out.println(map.toString());

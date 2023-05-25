@@ -80,14 +80,5 @@ public class ArrayListEx {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }

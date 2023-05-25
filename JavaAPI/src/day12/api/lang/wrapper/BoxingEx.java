@@ -24,13 +24,5 @@ public class BoxingEx {
 		char result3 = v3.charValue();
 		boolean result4 = v4.booleanValue();
 		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }

@@ -10,7 +10,7 @@ public class LinkedListEx {
 		 LinkedList
 		 => 순서o, 중복o
   		 => 노드객체(양방향 연결리스트)
-  		 삽입, 삭제는 ArrayList보다 좋으나, 탐색으 느립니다.
+  		 삽입, 삭제는 ArrayList보다 좋으나, 탐색은 느립니다.
 		 */
 		
 		LinkedList<Integer> list = new LinkedList<>();
@@ -40,7 +40,7 @@ public class LinkedListEx {
 		
 		System.out.println("-------------------------------");
 		
-		//linklist는 queue의 기능을 구현하기 ㄸ때문에 queue기능도 사용이 가능
+		//linklist는 queue의 기능을 구현하기 때문에 queue기능도 사용이 가능
 		
 		list.offer(10);
 		list.offer(11);

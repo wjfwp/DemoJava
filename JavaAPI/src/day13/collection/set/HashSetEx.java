@@ -52,15 +52,6 @@ public class HashSetEx {
 			System.out.println(iter.next());
 		}
 	
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
 	}
 	

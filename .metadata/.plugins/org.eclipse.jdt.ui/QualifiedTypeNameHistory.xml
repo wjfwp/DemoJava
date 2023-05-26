@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-    <fullyQualifiedTypeName name="day13.generic.good.ABC"/>
-    <fullyQualifiedTypeName name="day13.generic.bad.Person"/>
-    <fullyQualifiedTypeName name="day13.generic.good.DEF"/>
-    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.io.Writer"/>
     <fullyQualifiedTypeName name="day16.api.io.buffered.BufferedReaderEx"/>
@@ -30,7 +23,6 @@
     <fullyQualifiedTypeName name="day19.api.thread.ThreadTest02"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="day19.api.thread.ex02.ThreadTest"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
@@ -59,5 +51,13 @@
     <fullyQualifiedTypeName name="quiz19.User"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
 </qualifiedTypeNameHistroy>
